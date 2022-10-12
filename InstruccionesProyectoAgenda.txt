@@ -1,0 +1,21 @@
+Instrucciones de Agenda:
+
+Es necesario crear un programa que permite gestionar una agenda de teléfonos, los cuales se almacenarán en un array de 100 elementos.
+
+Cada contacto de la agenda será un objeto de tipo contacto, con 2 datos, «nombre» y «teléfono». No se podrán crear contactos sin nombre ni teléfono.
+
+La agenda permitirá realizar las siguientes operaciones:
+Añadir, buscar, modificar, eliminar, mostrar y vaciar.
+Añadir: Permite agregar un nuevo contacto. Si ya existe un contacto con ese nombre se le informará al usuario previo almacenamiento.
+
+Buscar: Permite localizar un contacto por nombre. Si existen varios con dicho nombre, se mostrarán todos.
+
+Modificar: Modifica los datos de un contacto.
+
+Eliminar: Elimina los datos de un contacto.
+
+Mostrar: Muestra un listado de todos los contactos almacenados en la agenda.
+
+Vaciar: Elimina todo el contenido de la agenda, previa confirmación del usuario.
+
+Observaciones: En todo momento, la agenda se mantendrá ordenada por «nombre» del contacto
